@@ -1,0 +1,62 @@
+#imgunqfile{
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    width:130vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border: 1px solid #dadce0;
+    transform: translate(-50%, -50%);
+    border-radius: 4px;
+    padding-right: 15px;
+}
+#searchbar{
+    background-color: white;
+    width:800px;
+    position:absolute;
+    top:20px;
+    margin-left:-397px;
+    border-radius:7px;
+    
+}
+#loginimg{
+    position: absolute;
+    top:80px;
+    margin-left:-35px;
+    width:100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+#images_container{
+    width:800px;
+    height:300px;
+    margin-left: 11px;
+    background-color: white;
+    margin-bottom: -90px;
+    
+    
+}
+
+#logoutimg{
+    width:80px;
+    height:40px;
+    position:absolute;
+    top:567px;
+    margin-left:550px; 
+}
+.imgunq{
+    display: flex;
+}
+#img{
+    width:256px;
+    height: 256px;
+    position: relative;
+    left:300px;
+    top:30px;
+}

@@ -1,0 +1,115 @@
+html,body{
+    background-image:url("./pexels-miguel-á-padriñán-3785926.jpg");
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+.container-centered {
+    background-color: #4285F4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    width:59vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border: 1px solid #dadce0;
+    transform: translate(-50%, -50%);
+    border-radius: 4px;
+}
+#signup-container {
+    background-color: #42f49b;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    width:59vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border: 1px solid #dadce0;
+    transform: translate(-50%, -50%);
+    border-radius: 4px;
+}
+#imgunq{
+    width:30vh;
+    height:10vh;
+    position: absolute;
+    top: 14%; /* Adjust this value to move the image down */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-bottom: 100px;
+    border-radius: 2px;
+}
+p{
+    background-color: aliceblue;
+    padding: 4px;
+    border-radius:2px;
+    width:48vh;
+}
+#login{
+    margin-right: 100px;
+}
+#signup{
+    margin-left: -100px;
+}
+#floatingInput{
+    width:48vh;
+}
+#floatingPassword{
+    width:48vh;
+}
+#centerdiv{
+    width:40vh;
+}
+@media (min-width: 768px) {
+    .container-centered,
+    #signup-container {
+        height: 40vh;
+        width: 40vh;
+        /* Adjust other properties as needed for larger screens */
+    }
+    
+    #imgunq {
+        width: 20vh;
+        height: 7vh;
+        /* Adjust other properties for the image on larger screens */
+    }
+    
+    p {
+        width: 38vh;
+        /* Adjust other properties for paragraphs on larger screens */
+    }
+    
+    #floatingInput,
+    #floatingPassword {
+        width: 38vh;
+        /* Adjust other properties for inputs on larger screens */
+    }
+    
+    #centerdiv {
+        width: 30vh;
+        /* Adjust other properties for centerdiv on larger screens */
+    }
+    
+    #login {
+        margin-right: 50px;
+        /* Adjust other properties for login button on larger screens */
+    }
+    
+    #signup {
+        margin-left: -90px;
+        /* Adjust other properties for signup button on larger screens */
+    }
+}
+
+
+
+
+
+
