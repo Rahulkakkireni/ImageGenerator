@@ -2,7 +2,6 @@ import express from 'express'
 import cors from 'cors'
 import mongoose from 'mongoose'
 import axios from 'axios';
-// require('./models/user.cjs')
 const app=express()
 app.use(express.json())
 app.use(express.urlencoded())
