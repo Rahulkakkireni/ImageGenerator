@@ -12,3 +12,10 @@ for example , prompt : a man climbing a tree
 prompt : Imac
 ![image](https://github.com/Rahulkakkireni/ImageGenerator/assets/100458777/2620e1f0-798e-4c73-91d1-36d047ecfed5)
 
+working of the image geneeator:
+
+
+https://github.com/user-attachments/assets/e71a094d-cb94-44eb-9de9-7d4014d73216
+
+
+
